@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T01:39:23.152Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="vwLqJy7UFoMOiInAiTp2" version="21.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T01:53:42.835Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="k62tXRaxa9Kra7pkKtIK" version="21.3.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1402" dy="1649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1567" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-2" value="Materia" style="shape=table;startSize=20;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="650" y="-70" width="250" height="130" as="geometry" />
+          <mxGeometry x="550" y="-50" width="250" height="130" as="geometry" />
         </mxCell>
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-3" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
           <mxGeometry y="20" width="250" height="30" as="geometry" />
@@ -59,7 +59,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-13" value="&#xa;Profesor&#xa;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="730" y="350" width="250" height="130" as="geometry" />
+          <mxGeometry x="950" y="-50" width="250" height="130" as="geometry" />
         </mxCell>
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-14" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-13" vertex="1">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
@@ -101,7 +101,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-23" value="Docente" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="40" width="250" height="100" as="geometry">
+          <mxGeometry x="120" y="-60" width="250" height="160.00000000000023" as="geometry">
             <mxRectangle x="100" y="30" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -126,13 +126,39 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-29" value="customer_name char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-27" vertex="1">
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-29" value="nombre varchar(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-27" vertex="1">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VSUwX6tA3pHlKpSvRgfM-16" value="&lt;div style=&quot;text-align: justify;&quot;&gt;•Docente (LegajoDoc, Nombre, Apellido, CodJefe)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;Pais (CPais, Nombre, capital)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;limites (CodPais, CodPaisLimite)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;Pais (PK CPais, Nombre)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;Limites (PK CPais, PK CPLimite)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;Alumno (PK Legajo, NyA, Email, ...)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;AluTel (PK Legajo, PKNroTel, TipoTel)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;materia (PK CodMateria, Nombre)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;docentes (PK LegajoDoc, Nombre, email)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;TelDoc (PK LegajoDoc, PK NroTel, tipo tel)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;Curso (PK CodMateria, PK CodCurso, CodDocente)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;AluPorCurso (PKCodMateria, PK CodCurso, PK LegajoAlu, Nota)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;Curso (PK CodMateria, PK CodCurso, CodDocente, PK CuatrimestreAño)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;AluxCur (PK CodMat, PK CodCurso, PKCuatrimestreAño, PK LegajoAlu, Nota)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="70" y="-460" width="440" height="430" as="geometry" />
+        <mxCell id="VSUwX6tA3pHlKpSvRgfM-20" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="C-vyLk0tnHw3VtMMgP7b-23">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VSUwX6tA3pHlKpSvRgfM-21" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="VSUwX6tA3pHlKpSvRgfM-20">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSUwX6tA3pHlKpSvRgfM-22" value="customer_name char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="VSUwX6tA3pHlKpSvRgfM-20">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSUwX6tA3pHlKpSvRgfM-17" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="C-vyLk0tnHw3VtMMgP7b-23">
+          <mxGeometry y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VSUwX6tA3pHlKpSvRgfM-18" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="VSUwX6tA3pHlKpSvRgfM-17">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSUwX6tA3pHlKpSvRgfM-19" value="customer_name char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="VSUwX6tA3pHlKpSvRgfM-17">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSUwX6tA3pHlKpSvRgfM-16" value="&lt;div style=&quot;text-align: justify;&quot;&gt;•Docente (LegajoDoc, Nombre, Apellido, CodJefe)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;Pais (CPais, Nombre, capital)&lt;span style=&quot;white-space: pre; background-color: initial;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;limites (CodPais, CodPaisLimite)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;Pais (PK CPais, Nombre)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;Limites (PK CPais, PK CPLimite)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;Alumno (PK Legajo, NyA, Email, ...)&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;AluTel (PK Legajo, PKNroTel, TipoTel)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;materia (PK CodMateria, Nombre)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;docentes (PK LegajoDoc, Nombre, email)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;TelDoc (PK LegajoDoc, PK NroTel, tipo tel)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;Curso (PK CodMateria, PK CodCurso, CodDocente)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;AluPorCurso (PKCodMateria, PK CodCurso, PK LegajoAlu, Nota)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;Curso (PK CodMateria, PK CodCurso, CodDocente, PK CuatrimestreAño)&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;AluxCur (PK CodMat, PK CodCurso, PKCuatrimestreAño, PK LegajoAlu, Nota)&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-440" width="450" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
