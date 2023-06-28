@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T18:43:08.543Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="XbqzTeol9vi-1bMXco2F" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T18:47:14.435Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ZHO83IGtWzFHA-4B4FCQ" version="21.5.1" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1179" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -25,12 +25,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-8" value="PedirNumeroMudanza()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="aM9ryv3xv72pqoxQDRHE-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-8" value="SolicitaVAlores(porcentaje:int. condiciones: string)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="aM9ryv3xv72pqoxQDRHE-2" edge="1">
+          <mxGeometry x="-0.0013" relative="1" as="geometry">
             <mxPoint x="195" y="205" as="targetPoint" />
             <Array as="points">
               <mxPoint x="190" y="280" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kOe77Lw1i8NxvGdcIJZ9-1" value="VAlidadDatosAcceso(nick:string, pas: string)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-5" target="aM9ryv3xv72pqoxQDRHE-2">
@@ -43,7 +44,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kOe77Lw1i8NxvGdcIJZ9-2" value="IngresarModulosInformes()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="aM9ryv3xv72pqoxQDRHE-5">
+        <mxCell id="kOe77Lw1i8NxvGdcIJZ9-2" value="AccederSeccionPromos()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="aM9ryv3xv72pqoxQDRHE-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="230" as="sourcePoint" />
             <Array as="points">
@@ -52,7 +53,7 @@
             <mxPoint x="325" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kOe77Lw1i8NxvGdcIJZ9-5" value="IngresarCodigoMudanza(nroMudanza:string)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="kOe77Lw1i8NxvGdcIJZ9-5" value="IngresarValores(porcentaje:int. condiciones:string)&lt;br&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="320" as="sourcePoint" />
             <Array as="points">
@@ -61,7 +62,7 @@
             <mxPoint x="450" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kOe77Lw1i8NxvGdcIJZ9-6" value="MostrarDetallaMudanza()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="kOe77Lw1i8NxvGdcIJZ9-6" value="ConfirmarPromo()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="380" as="targetPoint" />
             <Array as="points">
@@ -71,7 +72,7 @@
             <mxPoint x="450" y="380" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kOe77Lw1i8NxvGdcIJZ9-8" value="impriimirInfoMudanza()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="kOe77Lw1i8NxvGdcIJZ9-8" value="AceptarOperacion()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="450" as="sourcePoint" />
             <Array as="points">
@@ -80,7 +81,7 @@
             <mxPoint x="450" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kOe77Lw1i8NxvGdcIJZ9-9" value="CerrarSesion()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="kOe77Lw1i8NxvGdcIJZ9-9" value="EnviarRegistroBitacora(expediente:string, gestion:string)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="520" as="targetPoint" />
             <Array as="points">
